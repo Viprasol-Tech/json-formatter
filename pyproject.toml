@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "json-formatter"
+version = "0.1.0"
+description = "Format and pretty-print JSON with validation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Viprasol", email = "hello@viprasol.com"}]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://viprasol.com"
+Repository = "https://github.com/Viprasol-Tech/json-formatter"
+Issues = "https://github.com/Viprasol-Tech/json-formatter/issues"
+
+[tool.setuptools]
+packages = ["json_formatter"]
